@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: url('https://cs14.pikabu.ru/post_img/big/2023/02/11/11/167614534911538297.jpg') no-repeat ;
+    background-size: cover;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 25%;
+    margin: auto;
+    margin-top: 280px;
+    gap: 10px;
+}
+input {
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    opacity: 0.8;
+    background-color: rgba(176, 176, 245, 0.716);
+}
+input::placeholder{
+    color: black;
+}
+button {
+    width: 50%;
+    margin: auto;
+    padding: 6px;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    background-color: rgb(176, 176, 245);
+    margin-top: 20px;
+    color: black;
+    opacity: 0.9;
+    font-weight: 900;
+    transition: 0.2s;
+}
+button:hover{
+    background-color: rgb(247, 247, 247);
+}
+
+.card-body {
+    width: 20%;
+    color: #fff;
+}
+.card-img {
+    max-width: 250px;
+
+}
+h3 {
+    color: #fff;
+}
+h4 {
+    color: #fff;
+}
+
+.main-modal {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: gray;
+    display: none;
+}
+
+.inner-modal {
+    width: 400px;
+    height: 200px;
+    background-color: beige;
+    margin: auto;
+    text-align: center;
+}
+
+.close {
+    text-align: end;
+}
